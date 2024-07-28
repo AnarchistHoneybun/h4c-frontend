@@ -1,8 +1,9 @@
 import React from 'react'
+import ModeToggle from './ModeToggle';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-gray-800 text-white p-8">
+    <footer className="relative bg-background text-foreground p-8">
       <div className="container mx-auto">
         <div className="flex justify-start space-x-16">
           <div>
@@ -30,6 +31,9 @@ const Footer: React.FC = () => {
             </ul>
           </div>
         </div>
+      </div>
+      <div className="absolute bottom-0 right-0 p-4">
+        <ModeToggle />
       </div>
     </footer>
   )
