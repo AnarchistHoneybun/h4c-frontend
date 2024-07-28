@@ -12,8 +12,9 @@ const TabSwitcher: React.FC = () => {
   }
 
   return (
-    <Tabs defaultValue="home" onValueChange={handleTabChange} className="w-full">
-      <TabsList className="grid w-full grid-cols-3">
+    <div className="flex justify-center w-full p-2">
+    <Tabs defaultValue="home" onValueChange={handleTabChange} className="w-auto">
+      <TabsList className="grid w-[400px] grid-cols-3">
         <TabsTrigger value="home">HOME</TabsTrigger>
         <TabsTrigger value="dash">DASH</TabsTrigger>
         <TabsTrigger value="profile">PROFILE</TabsTrigger>
@@ -22,6 +23,7 @@ const TabSwitcher: React.FC = () => {
         <TabsContent value="dash">Dash Page</TabsContent>
         <TabsContent value="profile">Profile Page</TabsContent> */}
     </Tabs>
+    </div>
   )
 }
 
