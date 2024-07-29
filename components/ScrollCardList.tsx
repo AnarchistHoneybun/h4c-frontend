@@ -9,7 +9,7 @@ interface ScrollCardListProps {
 
 const ScrollCardList: React.FC<ScrollCardListProps> = ({ onCardClick }) => {
   const cardTitles = [
-    "Project Alpha", "Task Beta", "Initiative Gamma",
+    "Project Alpha", "Task Beta", "Initiative Gamma", "Project Delta", "Task Epsilon", "Initiative Zeta"
   ];
 
   return (
