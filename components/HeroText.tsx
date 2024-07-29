@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { BlurInTitle } from "@/components/BlurInTitle";
 
 const companies = ['Google', 'Amazon', 'Microsoft'];
 
@@ -16,7 +17,7 @@ export default function HeroText() {
 
   return (
     <div className="text-left">
-      <h1 className="text-5xl font-bold mb-4">Get Hired For...</h1>
+      <BlurInTitle />
       <div className="h-20 overflow-hidden">
         <AnimatePresence mode="wait">
           <motion.div
