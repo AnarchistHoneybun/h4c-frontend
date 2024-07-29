@@ -17,11 +17,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <TabSwitcher className="mb-4" />
-           <div className="min-h-[75vh]">
-            {children}
-           </div>
-            <Footer />
+          {children}
         </ThemeProvider>
       </body>
     </html>

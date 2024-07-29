@@ -1,7 +1,6 @@
 import { GlobeComponent } from "@/components/GlobeComponent";
 import { BlurInTitle } from "@/components/BlurInTitle";
-
-export default function Home() {
+export default async function Home() {
   return (
     <div className="container mx-auto p-4">
       <div className="flex flex-col md:flex-row">
