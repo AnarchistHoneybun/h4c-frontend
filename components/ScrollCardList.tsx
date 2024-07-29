@@ -26,12 +26,21 @@ const ScrollCardList: React.FC<ScrollCardListProps> = ({ onCardClick }) => {
             </CardHeader>
           </Card>
         ))}
-        <Card className="cursor-pointer hover:bg-accent transition-colors border-dashed">
+        {/* <Card className="cursor-pointer hover:bg-accent transition-colors border-dashed">
           <CardHeader className="flex flex-row items-center justify-center h-20">
             <Plus className="mr-2" />
             <CardTitle className="text-lg">Add New</CardTitle>
           </CardHeader>
-        </Card>
+        </Card> */}
+        <Card 
+  className="bg-foreground text-background cursor-pointer hover:bg-accent hover:border-dashed hover:text-foreground transition-colors border-dashed mx-auto mt-8"
+  style={{ maxWidth: '50%'}}
+>
+  <CardHeader className="flex flex-row items-center justify-center h-20">
+    <Plus className="mr-2" />
+    <CardTitle className="text-lg">Add New</CardTitle>
+  </CardHeader>
+</Card>
       </div>
     </ScrollArea>
   );

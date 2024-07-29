@@ -14,7 +14,6 @@ export default function Dash() {
 
   return (
     <div className="container mx-auto p-4">
-      <h1 className="text-2xl font-bold mb-6">Dashboard</h1>
       <div className="flex gap-6">
         <div className="w-1/3">
           <ScrollCardList onCardClick={handleCardClick} />
