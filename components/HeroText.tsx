@@ -25,7 +25,7 @@ export default function HeroText() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: -50, opacity: 0 }}
             transition={{ duration: 0.5 }}
-            className="text-4xl font-bold italic text-accent-foreground"
+            className="text-4xl font-bold italic text-foreground"
           >
             {companies[currentCompany]}
           </motion.div>
