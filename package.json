@@ -25,7 +25,6 @@
     "framer-motion": "^11.3.19",
     "lucide-react": "^0.417.0",
     "magicui-cli": "^0.1.6",
-    "mongoose": "^8.5.1",
     "next": "14.2.5",
     "next-themes": "^0.3.0",
     "react": "^18",
