@@ -43,7 +43,7 @@ export default function TabSwitcher({ className }: { className?: string }) {
             <span>Profile</span>
           </Link>
         </DockIcon>
-        <DockIcon className="mx-6">
+        <DockIcon className="mx-10">
           <Link
             className="flex items-center justify-center px-4 py-2 rounded-lg hover:bg-accent hover:bg-opacity-20 transition-all duration-300 bg-destructive"
             href="/"
